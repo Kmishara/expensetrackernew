@@ -1,0 +1,77 @@
+ .overviewContainer{
+  display:flex;
+  flex-direction:column;
+  /* align-items: center; */
+  margin: 10px;
+  font-family:Montserrat;
+}
+.overviewContainer .Balance{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-size: 18px;
+/* width: 100%; */
+font-weight: bold;
+align-items: center;
+ }
+.Addtrc{
+background: #000;
+color: #fff;
+padding: 5px 10px;
+border-radius: 4px;
+align-items: center;
+justify-self: center;
+text-align: center;
+/* width: 100%; */
+margin: 10px;
+cursor: pointer;
+font-weight: bold;
+font-size: 15px;
+}
+.AddTransactionContainer{
+display: flex;
+flex-direction: column;
+border:1px solid #e6e8e9;
+gap: 10px;
+padding: 15px 20px;
+margin: 10px 20px;
+ }
+input{
+    outline: none;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #e6e8e9  
+} 
+.RadioBox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.expenseContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin: 20px;
+}
+.expensebox{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    border: 1px solid #e6e8e9;
+    padding: 15px 20px;
+    width: 135px;
+    font-size: 14px;
+}
+.expensebox span{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.expensebox.expense span{
+  color: red;
+}
+
+.expensebox.income span{
+  color: green;
+}
